@@ -18,13 +18,14 @@ public class Day1Tests
                                  """;
 
     private readonly Day1 _instance = new Day1();
-    
+
     [Fact]
     public void Puzzle1()
     {
         var result = _instance.SolvePuzzle1(Input.Split('\n'));
         Assert.Equal(3, result);
-    }   
+    }
+
     [Fact]
     public void Puzzle2()
     {
